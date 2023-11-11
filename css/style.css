@@ -139,7 +139,7 @@ li a {
 }
 
 .quote p, .quote h6 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 100;
   font-style: italic;
   color: #1F2937;
@@ -154,6 +154,37 @@ li a {
 
 .action {
   background-color: #3882F6;
+  margin: 120px 15%;
+  padding: 50px 130px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-text p {
+  margin: 0;
+}
+
+.action-text .big, .action-button button {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-text .small {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.action-button {
+  align-self:center;
+}
+
+.action-button button {
+  background-color: #3882F6;
+  padding: 8px 32px;
+  border: 2px solid white;
+  border-radius: 12px;
 }
 
 .footer {
