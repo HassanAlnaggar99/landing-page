@@ -97,7 +97,7 @@ li a {
 }
 
 .info {
-  padding: 0px 20% 3em;
+  padding: 0px 20% 100px;
 }
 
 .info h3 {
@@ -135,6 +135,21 @@ li a {
 
 .quote {
   background-color: #E5E7EB;
+  padding: 8% 20% 5% 24%;
+}
+
+.quote p, .quote h6 {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote h6 {
+  text-align: end;
+  font-weight: 700;
+  margin-top: 10px;
 }
 
 .action {
