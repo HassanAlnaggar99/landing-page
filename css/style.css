@@ -114,10 +114,6 @@ li a {
   gap: 3em;
 }
 
-.info .col {
-
-}
-
 .col-img {
   width: 170px;
   height: 170px;
@@ -189,4 +185,11 @@ li a {
 
 .footer {
   background-color: #1F2937;
+  padding: 20px 0;
+}
+
+.footer p {
+  color: #F9FAF8;
+  font-size: 18px;
+  text-align: center;
 }
